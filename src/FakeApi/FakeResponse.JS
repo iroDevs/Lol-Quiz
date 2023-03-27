@@ -1,4 +1,4 @@
-export default function fakeResponse() {
+export default async function fakeResponse() {
     return [  
   
     {    
@@ -63,7 +63,7 @@ export default function fakeResponse() {
         alternativas: ["Garen", "Jarvan IV", "Xin Zhao", "Aatrox"],
         resposta: "Aatrox"
     },
-    
+
     {
         id: 10,
         frase: "Lentamente, como a chuva, a névoa negra invade o meu pensamento.",
